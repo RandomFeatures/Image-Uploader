@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yard Stick</string>
+    <string name="empty">Loading images...</string>
+    <string name="noTasks">No tasks</string>
+    <string name="random">Random</string>
+    <string name="correct">Correct</string>
+   	<string name="rfi_url">random-features.net</string>
+    <string name="rfi_email">support@random-features.net</string>
+    <string name="copyright">© 2012 Random Features, Inc. </string>
+    <string name="onex">  x 1</string>
+    <string name="tenx">  x 10</string>
+    <string name="hundx"> x 100</string>
+</resources>

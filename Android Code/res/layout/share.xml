@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true">
+
+
+ 	<TextView
+        android:text="If you like this game!"
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" 
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="30dip"/>
+
+	<Button
+		android:id="@+id/btnShare"
+        android:layout_width="300dp" 
+        android:layout_height="75dp"
+	    android:layout_centerHorizontal="true" 
+	    android:drawableLeft="@drawable/sharethis"
+	    android:textSize="6pt"
+	    android:layout_marginBottom="5dp"
+	    android:layout_below="@+id/TextView01"
+        android:text="Please share with your friends!"
+    />
+    
+    <Button
+		android:id="@+id/btnGames"
+       	android:layout_width="300dp" 
+        android:layout_height="75dp"
+	    android:layout_centerHorizontal="true" 
+	    android:drawableLeft="@drawable/games"
+	    android:textSize="6pt"
+        android:text="Find more of our games!"
+        android:layout_below="@+id/btnShare"
+    />
+    
+
+    
+	<TextView 
+   			android:layout_height="wrap_content" 
+   			android:layout_width="wrap_content" 
+   			android:layout_centerHorizontal="true" 
+   			android:text="@string/copyright" 
+   			android:textSize="7pt"
+   			android:paddingBottom="5.0dip"
+   			android:id="@+id/textView1" 
+   			android:layout_alignParentBottom="true" />
+</RelativeLayout>

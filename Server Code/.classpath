@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.amazonaws.eclipse.sdk.AWS_JAVA_SDK"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/dal"/>
+	<classpathentry kind="lib" path="/home/allen/java-dev-root/javalib/spymemcached/spymemcached-2.8.1.jar" sourcepath="/home/allen/java-dev-root/javalib/spymemcached/spymemcached-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/allen/java-dev-root/javalib/spymemcached/spymemcached-2.8.1-javadocs.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/allen/java-dev-root/javalib/joda-time-2.1/joda-time-2.1.jar" sourcepath="/home/allen/java-dev-root/javalib/joda-time-2.1/joda-time-2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/allen/java-dev-root/javalib/joda-time-2.1/joda-time-2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/allen/java-dev-root/javalib/log4j/log4j-1.2.17.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jInstagram"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

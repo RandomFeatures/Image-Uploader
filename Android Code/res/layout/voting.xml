@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:orientation="vertical"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent">
+   
+   
+    <ImageView 
+    		android:id="@+id/masterView" 
+    		android:layout_width="306dip"
+			android:layout_height="306dip"
+    		android:src="@drawable/icon"
+    		android:paddingBottom="5.0dip" 
+    		android:layout_gravity="center_horizontal"
+    		android:layout_centerHorizontal="true"
+    		
+    		>
+    </ImageView>
+
+<RadioGroup android:id="@+id/radioGroup"
+                android:layout_width="match_parent" 
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:paddingBottom="5.0dip"
+                android:checkedButton="@+id/onexButton">
+
+      <RadioButton android:id="@+id/onexButton"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"
+                   android:layout_weight="1"
+                   android:text="  x 1"/>
+                   
+      <RadioButton android:id="@+id/tenxButton"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"
+                   android:layout_weight="1"
+                   android:text="  x 10"/>
+                   
+      <RadioButton android:id="@+id/hundxButton"
+                   android:layout_width="wrap_content"
+                   android:layout_height="fill_parent"
+                   android:layout_weight="1"
+                   android:text="  x 100"/>
+    </RadioGroup>
+
+<LinearLayout 
+    android:id="@+id/LinearLayout01" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:paddingBottom="5.0dip"
+    android:layout_alignParentBottom="true">
+    <Button 
+        android:id="@+id/voteUpButton" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_weight="1" 
+        android:text="Vote Up">
+    </Button>
+    <Button 
+        android:id="@+id/voteDownBUtton" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_weight="1" 
+        android:text="Vote Down">
+    </Button>
+</LinearLayout>
+
+   
+   
+   <LinearLayout 
+    android:id="@+id/LinearLayout02" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:layout_alignParentBottom="true">
+	   <TextView
+			   	android:id="@+id/lblUp"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textStyle="bold"  
+			    android:textSize="12sp" 
+			    android:text="Up Votes:"
+		/>
+		<TextView
+			   	android:id="@+id/txtUp"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:textStyle="bold"  
+			    android:textSize="12sp" 
+			    android:gravity="right"
+			    android:text="10"
+		/>
+	</LinearLayout>
+   
+   <LinearLayout 
+    android:id="@+id/LinearLayout03" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:layout_alignParentBottom="true">
+	   <TextView
+			   	android:id="@+id/lbldown"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textStyle="bold"  
+			    android:textSize="12sp" 
+			    android:text="Down Votes:"
+		/>
+		<TextView
+			   	android:id="@+id/txtDown"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:textStyle="bold"  
+			    android:textSize="12sp" 
+			    android:gravity="right"
+			    android:text="10"
+		/>
+	</LinearLayout>
+    
+    <LinearLayout 
+    android:id="@+id/LinearLayout04" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:layout_alignParentBottom="true">
+	   <TextView
+			   	android:id="@+id/lblscore"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:textStyle="bold"  
+			    android:textSize="12sp" 
+			    android:text="Score:"
+		/>
+		<TextView
+			   	android:id="@+id/txtScore"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:textStyle="bold"  
+			    android:textSize="12sp" 
+			    android:gravity="right"
+			    android:text="1.0"
+		/>
+	</LinearLayout>
+    
+</LinearLayout>
